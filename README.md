@@ -1,14 +1,13 @@
 # Spring-boot-OneToMany
 # Student-Subject Management API
 
-Bu proje, Spring Boot ile geliştirilmiş basit bir RESTful API uygulamasıdır. Öğrenci ve ders (subject) yönetimi yapılmaktadır. Temel CRUD işlemleri gerçekleştirilir ve `OneToMany` ilişkisi ile bir öğrencinin birden fazla dersi olabilir yapısı uygulanmıştır.
+Bu proje, Spring Boot ile geliştirilmiş  bir RESTful API uygulamasıdır. Öğrenci ve ders (subject) yönetimi yapılmaktadır. Temel CRUD işlemleri gerçekleştirilir ve `OneToMany` ilişkisi ile bir öğrencinin birden fazla dersi olabilir yapısı uygulanmıştır.
 
 ## 📌 Özellikler
 
 - Öğrenci ve ders CRUD işlemleri (Create, Read, Update, Delete)
 - Öğrenci → Ders ilişkisi (`@OneToMany`)
 - Ders adına göre filtreleme
-- Swagger ile API dokümantasyonu
 - PostgreSQL veritabanı bağlantısı
 - Katmanlı mimari (Controller-Service-Repository)
 
@@ -21,7 +20,8 @@ Bu proje, Spring Boot ile geliştirilmiş basit bir RESTful API uygulamasıdır.
 - PostgreSQL  
 - Lombok  
 - Maven
-Öğrenci Ekleme (Post ) ve bütün öğrencileri listeleme :
+  
+* Öğrenci Ekleme (Post ) ve bütün öğrencileri listeleme :
 
 
 
